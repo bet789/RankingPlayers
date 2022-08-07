@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-custom {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  background-color: #ffffff1c;
+}
+
+.bg-custom1 {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  background-color: #00000061;
+
+}
+
+.bg-arrow {
+  background-color: #00000061;
+
+}
+
+.top .icon {
+  top: -20px;
+  right: -20px;
+}
+
+.box-nav-games .icon {
+  background-color: #0000005a;
+  border-radius: 50%;
+}
+
+.box-provider-games .swiper-wrapper {
+  height: 160px;
+}
+
+.table tr td {
+  text-align: center;
+}
